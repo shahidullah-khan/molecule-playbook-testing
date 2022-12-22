@@ -1,4 +1,4 @@
-# Ansible 101 - Molecule playbook testing
+# Ansible 101 - Molecule playbook testing.
 
 > _This example is derived from Chapter 12 of [Ansible for DevOps](https://www.ansiblefordevops.com), version 1.23_
 
