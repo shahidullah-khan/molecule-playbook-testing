@@ -7,8 +7,8 @@ lint: |
   set -e
   yamllint .
   ansible-lint
-skip_list:
-  - fqcn-builtins
+  skip_list:
+    - fqcn-builtins
 platforms:
   - name: instance
     image: geerlingguy/docker-${MOLECULE_DISTRO:-centos8}-ansible:latest
